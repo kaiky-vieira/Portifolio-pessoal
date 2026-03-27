@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portifolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+
+      <span class="logo">Kaiky_Code<span class="blink">_</span></span>
+
+      <!-- Skills pequenininho no cabeçalho -->
+      <div class="skills-pill">
+        <span class="pill-dot"></span>
+        <!-- ✏️ Edite suas skills aqui -->
+        HTML · CSS · JavaScript · IA
+      </div>
+
+      <nav>
+        <a href="#sobre">sobre</a>
+        <a href="#experiencia">exp</a>
+        <a href="#projetos">projetos</a>
+        <a href="#contato">contato</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero">
+    <p class="hero-sub">// Desenvolvedor Backend</p>
+    <!-- ✏️ Edite seu nome e descrição -->
+    <h1>Olá, eu sou<br><span class="highlight">Kaiky Vieira</span></h1>
+    <p class="hero-desc">
+      Construo sistemas que funcionam e código que outras pessoas conseguem ler.
+      Apaixonado por backend, mas não fujo do frontend quando precisa.
+    </p>
+    <div class="hero-btns">
+      <a href="#projetos" class="btn">ver projetos</a>
+      <a href="#contato" class="btn btn-outline">falar comigo</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <h2>// sobre</h2>
+    <div class="sobre-grid">
+      <div class="sobre-texto">
+        <!-- ✏️ Edite seu texto de apresentação -->
+        <p>
+          Oi! Sou <strong>Seu Nome</strong>, tenho X anos e escrevo código há X anos.
+          Trabalho principalmente com backend, mas também curto frontend quando faz sentido.
+        </p>
+        <p>
+          Gosto de código limpo, sistemas simples e documentação que não dói ler.
+          Fora do trabalho, gosto de [hobby], [hobby] e café.
+        </p>
+      </div>
+      <div class="sobre-info">
+        <!-- ✏️ Edite suas informações -->
+        <div class="info-item">
+          <span class="info-label">localização</span>
+          <span class="info-val">São Paulo, BR</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">disponível</span>
+          <span class="info-val status-on">sim</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">foco</span>
+          <span class="info-val">backend / full stack</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">experiência</span>
+          <span class="info-val">X anos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section id="experiencia">
+    <h2>// experiência</h2>
+    <div class="exp-list">
+
+      <!-- ✏️ Duplique este bloco para adicionar mais experiências -->
+      <div class="exp-item">
+        <span class="exp-date">2023 – hoje</span>
+        <div class="exp-body">
+          <strong>Desenvolvedor Full Stack</strong>
+          <span class="exp-empresa">Empresa XYZ</span>
+          <p>Descreva o que você fez aqui. Use verbos de ação: construí, melhorei, reduzi, etc.</p>
+          <div class="tags">
+            <span>Node.js</span>
+            <span>React</span>
+            <span>PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <span class="exp-date">2022 – 2023</span>
+        <div class="exp-body">
+          <strong>Desenvolvedor Backend</strong>
+          <span class="exp-empresa">Outra Empresa</span>
+          <p>Descreva o que você fez aqui. Use verbos de ação: construí, melhorei, reduzi, etc.</p>
+          <div class="tags">
+            <span>Python</span>
+            <span>Docker</span>
+            <span>Redis</span>
+          </div>
+        </div>
+      </div>
+      <!-- Fim das experiências -->
+
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos">
+    <h2>// projetos</h2>
+    <div class="proj-grid">
+
+      <!-- ✏️ Duplique este bloco para adicionar mais projetos -->
+      <a href="https://github.com/seu_usuario/projeto" target="_blank" class="proj-card">
+        <div class="proj-top">
+          <span class="proj-nome">nome-do-projeto</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+        </div>
+        <p>Uma linha descrevendo o que o projeto faz.</p>
+        <div class="tags">
+          <span>Rust</span><span>CLI</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/seu_usuario/projeto2" target="_blank" class="proj-card">
+        <div class="proj-top">
+          <span class="proj-nome">outro-projeto</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+        </div>
+        <p>Uma linha descrevendo o que o projeto faz.</p>
+        <div class="tags">
+          <span>TypeScript</span><span>API</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/seu_usuario/projeto3" target="_blank" class="proj-card">
+        <div class="proj-top">
+          <span class="proj-nome">mais-um-projeto</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+        </div>
+        <p>Uma linha descrevendo o que o projeto faz.</p>
+        <div class="tags">
+          <span>Python</span><span>Bot</span>
+        </div>
+      </a>
+      <!-- Fim dos projetos -->
+
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2>// contato</h2>
+    <p class="contato-intro">Pode me chamar por qualquer um desses canais:</p>
+    <div class="contato-lista">
+      <!-- ✏️ Edite seus links -->
+      <a href="https://github.com/kaiky-vieira" target="_blank" class="contato-item">
+        <span class="contato-label">github</span>
+        <span>https://github.com/kaiky-vieira</span>
+      </a>
+      <a href="mailto:kk.premises@gmail.com" class="contato-item">
+        <span class="contato-label">email</span>
+        <span>kk.premises@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/kaiky-vieira" target="_blank" class="contato-item">
+        <span class="contato-label">linkedin</span>
+        <span>www.linkedin.com/in/kaiky-vieira</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <!-- ✏️ Edite seu nome -->
+    <p>© 2026 Kaiky Vieira — feito com HTML, CSS e café</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
